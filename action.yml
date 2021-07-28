@@ -9,5 +9,5 @@ outputs:
   time: # id of output
     description: 'The time we greeted you'
 runs:
-  using: 'cat'
-  main: 'index.js'
+  using: 'node12'
+  main: '../../../../index.js'
